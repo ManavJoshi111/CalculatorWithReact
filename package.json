@@ -1,8 +1,8 @@
 {
   "name": "todolist",
+  "homepage": "https://ManavJoshi111.github.io/CalculatorWithReact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ManavJoshi111.github.io/CalculatorWithReact",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
@@ -24,7 +24,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build && cp build/index.html build/404.html"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [

@@ -8,8 +8,8 @@ const Calculator = () => {
   const [Data, setData] = useState("");
   return (
     <>
-      <h2 className="title">Calculator</h2>
       <center>
+        <h2 className="title">Calculator</h2>
         <br />
         <Display data={Data} setData={setData} />
         <div className="btncontainer">
